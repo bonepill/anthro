@@ -18,18 +18,49 @@
 </head>
 
 <body>
+  <div id="instructions">
+    <h1>Anthropometric Measurements &mdash; an Intuitive Visualization</h1>
+    <p><b>Dataset:</b> Anthropometric measurements of 2208 women and 1774 men
+    representative of the general healthy population (from the 1988 US ANSUR study).</p>
+    <p><b>Instructions:</b> Select any pair of measurements from the list on the left
+    (mouse over the question marks for more explanation) and see how the two are related.
+    When your own measurements are entered in the respective text fields, a
+    corresponding red dot will apear in the chart on the right.
+    The yellow and white stripes are the average +/- one standard deviation for
+    each gender. Understand that it's all about PROPORTIONS.</p>
+  </div>
   <div id="measurements">
     <table id="measurements_table"></table>
   </div>
   <div id="plot">
-    <p id="plot_header">Show data for:
-      <input type="radio" name="radio_data" />only women
-      <input type="radio" name="radio_data" />only men
-      <input type="radio" name="radio_data" checked />both women and men
-    </p>
+    <!-- <p id="message">Beware: the app is currently under revision and might
+    temporarily not work as expected (14-May-14)</p> -->
     <div id="plot_canvas"></div>
     <p id="plot_footer"></p>
+    <p id="plot_header">Show data for:
+      <input type="radio" name="gender"/>only women
+      <input type="radio" name="gender"/>only men
+      <input type="radio" name="gender" checked/>both women and men
+    </p>
+    <p id="plot_header" style="margin-top: -0.3em; margin-left: -1.7em">
+      <input type="radio" name="race"/>only white
+      <input type="radio" name="race"/>only black
+      <!-- <input type="radio" name="race" />test -->
+      <input type="radio" name="race" checked/>all
+    </p>
+    <p id="plot_header" style="margin-top: -0.3em; margin-left: -1.7em">
+      <input type="radio" name="age"/>age below 30
+      <input type="radio" name="age"/>age 30 and above
+      <!-- <input type="radio" name="race" />test -->
+      <input type="radio" name="age" checked/>all
+    </p>
+    <div id="feedback">
+      <p>Maintained by Hannah Bast, bast at cs dot uni-freiburg dot de, last
+      updated 28-Nov-14</p>
+    </div>
   </div>
 </body>
 
+</html>
+  
 </html>
