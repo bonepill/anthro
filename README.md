@@ -1,6 +1,6 @@
 # Anthro
 
-This fork of [anthropometric-measurements](https://https://github.com/ad-freiburg/anthropometric-measurements) is intended to copy the functionality of the original while being fully client side.
+This fork of [anthropometric-measurements](https://github.com/ad-freiburg/anthropometric-measurements) is intended to copy the functionality of the original while being fully client side.
 
 Github pages deployment: https://bonepill.github.io/anthro
 
