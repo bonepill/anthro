@@ -123,12 +123,32 @@ function initMeasurementsTable() {
 
   // When one of the "show data" radio buttons (women only / men only / both
   // women and men) is clicked, redraw data.
-  $("input:radio[name=\"radio_data\"]").click(function() {
-    var index = $(this).index("input:radio[name=\"radio_data\"]");
+  $("input:radio[name=\"gender\"]").click(function() {
+    var index = $(this).index("input:radio[name=\"gender\"]");
     show_1 = true;
     show_2 = true;
     if (index == 0) show_2 = false;
     if (index == 1) show_1 = false;
+    getAnsurDataAndPlot();
+  });
+  
+  // Dito for race.
+  $("input:radio[name=\"race\"]").click(function() {
+    var index = $(this).index("input:radio[name=\"race\"]");
+    race = "none";
+    if (index == 0) race = "white";
+    if (index == 1) race = "black";
+    // if (index == 2) restriction = "hispanic";
+    getAnsurDataAndPlot();
+  });
+
+  // Dito for age.
+  $("input:radio[name=\"age\"]").click(function() {
+    var index = $(this).index("input:radio[name=\"age\"]");
+    age = "none";
+    if (index == 0) age = "young";
+    if (index == 1) age = "old";
+    // if (index == 2) restriction = "hispanic";
     getAnsurDataAndPlot();
   });
 
