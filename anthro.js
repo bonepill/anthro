@@ -6,7 +6,7 @@ var min_x;
 var max_x;
 var min_y;
 var max_y;
-var col_x = 100;  // Default x measurement is 100 = STATURE = body height.
+var col_x = 99;  // Default x measurement is 99 = STATURE = body height.
 var col_y = 124;  // Default y measurements is 124 = WEIGHT = body weight.
 var show_1 = true;
 var show_2 = true;
