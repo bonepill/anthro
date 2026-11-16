@@ -290,10 +290,22 @@ function errorCallback(json) {
 
 // Get headers from ANSUR data.
 function getAnsurHeadersAndInitMeasurements() {
+  AnsurData.load()
+    .then(function() {
+      headers = AnsurData.getHeaders();
+      initMeasurementsTable();
+    })
+    .catch(function(error) {
+      alert("Error loading ANSUR data:\n" + error.message);
+    });
+}
+/*
+function getAnsurHeadersAndInitMeasurements() {
   var url = "anthro.php?mode=headers";
   $.ajax(url, { dataType: "jsonp" });
   // Will call getAnsurHeadersCallback when done.
 }
+*/
 
 function getAnsurHeadersCallback(json) {
   // console.log(json.headers);
