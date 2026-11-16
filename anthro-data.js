@@ -21,6 +21,25 @@
         return text.trim().split(/\r?\n/);
     }
 
+    function parseHeaders(text) {
+        var lines = parseRows(text);
+        var result = [];
+        for (var i = 0; i < lines.length; i++) {
+            if (!lines[i].trim()) {
+                continue;
+            }
+            var fields = lines[i].split("\t");
+            result.push([
+                fields[0],             // Measurement name
+                fields[1],             // Description
+                fields[2],             // Unit
+                parseFloat(fields[3]), // Scale
+                fields[4]              // Additional information
+            ]);
+        }
+        return result;
+    }
+
     function loadAllData() {
 
         return Promise.all([
