@@ -74,8 +74,7 @@
 0	cm	10	KNEE_HT_-_SITTING
 0	cm	10	LATERAL_FEMORAL_EPICONDYLE_HT
 0	cm	10	LATERAL-MALLEOUS_HT
-1	cm	10	THIGH_CIRC-DISTAL Lower thigh girth  The horizontal circumference of the right thigh at the level of the suprapatella landmark. Subject stands erect with the feet about 10 cm apart and the weight distributed equally on both feet. Use a tape to measure the horizontal circumference of the thigh at the level of
-the suprapatella landmark at the top of the knee. The bottom of the tape follows the top of the landmark.
+1	cm	10	THIGH_CIRC-DISTAL Lower thigh girth  The horizontal circumference of the right thigh at the level of the suprapatella landmark. Subject stands erect with the feet about 10 cm apart and the weight distributed equally on both feet. Use a tape to measure the horizontal circumference of the thigh at the level of the suprapatella landmark at the top of the knee. The bottom of the tape follows the top of the landmark.
 1	cm	10	MENTON_TO_NASAL_ROOT_DEP_LNTH	Mention-sellion length	The distance between the menton landmark at the bottom of the chin and the sellion landmark at the deepest point of the nasal root depression. Measured with a sliding caliper. The teeth are lightly occluded.
 0	cm	10	MIDSHOULDER_HT-SITTING
 1	cm	10	NECK_TO_BUSTPOINT_LNTH	Neck-bustpoint length	The distance between the trapezius landmark at the right side of the neck and the right bustpoint landmark on women or the right nipple (thelion) on men. Measured with a tape. Subject stands erect looking straight ahead. Shoulders and upper extremities are relaxed.
@@ -102,8 +101,7 @@ the suprapatella landmark at the top of the knee. The bottom of the tape follows
 0	cm	10	STRAP_LNTH
 0	cm	10	SUPRASTERNALE_HT
 0	cm	10	TENTH_RIB
-1	cm	10	THIGH_CIRC-PROXIMAL Thigh girth  The circumference of the thigh at its juncture with the buttock. Subject stands erect on a table with the weight distributed
-equally on both feet. The legs are spread apart just enough so that the thighs do not touch, and the right hand is on the chest. The measurement is made perpendicular to the long axis of the thigh.
+1	cm	10	THIGH_CIRC-PROXIMAL Thigh girth  The circumference of the thigh at its juncture with the buttock. Subject stands erect on a table with the weight distributed equally on both feet. The legs are spread apart just enough so that the thighs do not touch, and the right hand is on the chest. The measurement is made perpendicular to the long axis of the thigh.
 0	cm	10	THIGH_CLEARANCE
 1	cm	10	THUMB_BRTH	Thumb breadth	The maximum breadth of the right thumb perpendicular to its long axis is measured with a Holtain caliper. The thumb is held straight and held away from the hand at about a 45° angle.
 0	cm	10	THUMB-TIP_REACH
