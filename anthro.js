@@ -315,9 +315,20 @@ function getAnsurHeadersCallback(json) {
 
 // Get user data.
 function getUserData(name) {
+  AnsurData.getUserData(name)
+    .then(function(result) {
+      getUserDataCallback(result);
+    })
+    .catch(function(error) {
+      console.error("Error loading user data:", error);
+    });
+}
+/*
+function getUserData(name) {
   var url = "anthro.php?mode=user&name=" + name;
   $.ajax(url, { dataType: "jsonp" });
 }
+*/
 
 function getUserDataCallback(json) {
   userData = json.data;
