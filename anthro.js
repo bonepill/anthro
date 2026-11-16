@@ -333,12 +333,28 @@ function getAnsurDataAndPlot() {
   if (col_y <= 0) return;
   var scale_x = headers[col_x - 1][3];
   var scale_y = headers[col_y - 1][3];
+  var result = AnsurData.getData(
+    col_x,
+    col_y,
+    scale_x,
+    scale_y
+  );
+  data_1 = result.data_1;
+  data_2 = result.data_2;
+  plotData();
+}
+/*
+function getAnsurDataAndPlot() {
+  if (col_y <= 0) return;
+  var scale_x = headers[col_x - 1][3];
+  var scale_y = headers[col_y - 1][3];
   var url = "anthro.php" +
             "?mode=data" +
             "&colx=" + col_x + "&coly=" + col_y +
             "&scalex=" + scale_x + "&scaley=" + scale_y;
   $.ajax(url, { dataType: "jsonp" });
 }
+*/
 
 function getAnsurDataCallback(json) {
   // alert(json.col_1 + ", " + json.col_2 + ", " + json.size_1 + ", " + json.size_2);
