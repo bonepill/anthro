@@ -2,12 +2,19 @@
 html { height: 100% }
 body { height: 100%; margin: 0px; padding: 0px }
 
+/* Title and instructions on the top of the page */
+#instructions { margin-left: 25px; margin-bottom: 25px; max-width: 1300px; }
+h1 { margin-bottom: 0px; color: rgb(70, 0, 0) }
+
 /* Division of page */
 #measurements { width: 21em; float: left; margin-top: 0px; margin-left: 20px; }
 #plot { width: 800px; margin-left: 24em; margin-top: 20px; }
 #plot_header { text-align: center; }
-#plot_footer { text-align: center; font-weight: normal; }
-#plot_canvas { width: 800px; height: 500px; }
+#message { text-align: center; color: red; }
+#plot_footer { text-align: center; font-weight: normal; margin-bottom: 35px; }
+#plot_canvas { width: 800px; height: 500px; margin-top: 35px; }
+#feedback { text-align: center; margin-top: 2em; color: rgb(120, 120, 120); }
+#feedback p { margin-top: -0.5em }
 
 /* Formatting of individual components */
 #measurements_table { margin-left: 0px; }
