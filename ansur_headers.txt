@@ -26,9 +26,7 @@
 0	cm	10	BUTT_HT
 0	cm	10	BUTT_KNEE_LNTH
 0	cm	10	BUTT_POPLITEAL_LNTH
-1	cm	10	CALF_CIRC Calf girth  The maximum horizontal circumference of the right calf. Subject stands erect with the heels approximately 10 cm
-apart, and the weight distributed equally on both feet. Measure the maximum circumference of the calf with a tape held in the horizontal plane.
-values. Exert
+1	cm	10	CALF_CIRC Calf girth  The maximum horizontal circumference of the right calf. Subject stands erect with the heels approximately 10 cm apart, and the weight dstributed equally on both feet. Measure the maximum circumference of the calf with a tape held in the horizontal plane.
 0	cm	10	CALF_HT
 0	cm	10	CERVIC_HT
 0	cm	10	CERVIC_HT_SITTING
@@ -104,7 +102,7 @@ the suprapatella landmark at the top of the knee. The bottom of the tape follows
 0	cm	10	STRAP_LNTH
 0	cm	10	SUPRASTERNALE_HT
 0	cm	10	TENTH_RIB
-0	cm	10	THIGH_CIRC-PROXIMAL Thigh girth  The circumference of the thigh at its juncture with the buttock. Subject stands erect on a table with the weight distributed
+1	cm	10	THIGH_CIRC-PROXIMAL Thigh girth  The circumference of the thigh at its juncture with the buttock. Subject stands erect on a table with the weight distributed
 equally on both feet. The legs are spread apart just enough so that the thighs do not touch, and the right hand is on the chest. The measurement is made perpendicular to the long axis of the thigh.
 0	cm	10	THIGH_CLEARANCE
 1	cm	10	THUMB_BRTH	Thumb breadth	The maximum breadth of the right thumb perpendicular to its long axis is measured with a Holtain caliper. The thumb is held straight and held away from the hand at about a 45° angle.
