@@ -1,4 +1,5 @@
 This fork is intended to copy the functionality of the original while being fully client side.
+Github pages deployment: https://bonepill.github.io/anthro
 
 # Anthropometric measurements
 
